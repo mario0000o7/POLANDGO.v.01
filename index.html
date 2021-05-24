@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css">
+<title>TEST MAPA</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">$(function() {
+        $('.photo').maphilight({ fillColor:"8b8b92", fillOpacity: 1,  stroke: false,alwaysOn:true});
+    });
+    </script>
+</head>
+<body>
+<div class="navigation-bar">
+
+
+    <div id="navigation-container">
+
+
+
+        <ul>
+            <img  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
+            <li><a class="napis" href="index.html">Strona Główna</a></li>
+            <li><a class="napis" href="#">Informacje</a></li>
+
+
+            <li><div class="dropdown">
+                <button class="dropbtn">Polecane</button>
+                <div class="dropdown-content">
+                    <a class="zima" href="#">Zima</a>
+                    <a class="wiosna" href="#">Wiosna</a>
+                    <a class="lato" href="#">Lato</a>
+                    <a class="jesien" href="#">Jesień</a>
+                </div>
+            </div>
+            <li><a class="napis" href="#">Kontakt</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="map" style="padding: 10%">
+    <img src="poland2_dark_mode.svg" usemap="#simple" class="photo" >
+
+    <map name="simple">
+        <area shape="circle" coords="611,396,22" href="stronav2.html" />
+        <area shape="circle" coords="678,429,22" href="#Toruń" />
+        <area shape="circle" coords="77,349,22" href="#Sczecin" />
+        <area shape="circle" coords="678,123,22" href="#Gdańsk" />
+        <area shape="circle" coords="935,284,22" href="#Olsztyn" />
+        <area shape="circle" coords="1400,440,22" href="#Białystok" />
+        <area shape="circle" coords="809,749,22" href="lodz/lodz.html" />
+        <area shape="circle" coords="453,901,22" href="wroclaw/Wrocław.html" />
+    </map>
+</div>
+
+<div class="footer">
+    <p>POLANDGO.pl sp. z o.o. z siedzibą w XYZ, przy ul. XYZ, bud D, xx-xxx XYZ zarejestrowana w Rejestrze Przedsiębiorców Krajowego Rejestru Sądowego prowadzonym przez Sąd Rejonowy dla m. st. Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem 0000412352, NIP 1132853869, REGON 146025969 i z kapitałem zakładowym w wysokości 18 134 050,00 zł.</p>
+</div>
+</body>
+
+</html>

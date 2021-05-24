@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style_v2.css">
+    <script src="sidebar_for_pages.js"></script>
+    
+</head>
+
+<body>
+<!---idk czy to tu, czy raczej w head, ale zgauję, że tu, lol-->
+
+<ul class="nav" id = "myNav">
+    <li><a href="../index.html">Strona Główna</a></li>
+    <li><a href="index.html">Informacje</a></li>
+    <li><a href="#">Zabytki</a></li>
+    <li><a href="#">Kontakt</a></li>
+    
+    <li><a span style="float:right;font-size:20px;cursor:pointer;color:white;" onclick="openNav()">&#9776; inne miasta||a</span></a></li> <!--Problem jest z "suwakiem?", ponieważ width jest ustalony na 100% "suwak zasłania ostatnią literę, i dlatego jest tam ||a"-->
+    <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
+    <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->    
+    <div class="topnav-right"></div>
+        <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
+
+</ul>
+
+<!--Sidebar tu-->
+<div id="mySidenav" class="sidenav">
+    <c href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</c>
+        <ul>
+                <a href="../lodz/lodz.html">Łódz</a>
+                <a href="Wrocław.html">Wrocław</a>
+                <a href="#">Bydgoszcz</a>
+                <a href="#">Toruń</a>
+                <a href="#">Lublin</a>
+                <a href="#">Gorzów Wielkopolski</a>
+                <a href="#">Zielona Góra</a>
+                <a href="#">Kraków</a>
+                <a href="#">Warszawa</a>
+                <a href="#">Opole</a>
+                <a href="#">Rzeszów</a>
+                <a href="#">Gdańsk</a>
+                <a href="#">Katowice</a>
+                <a href="#">Kielce</a>
+                <a href="#">Olsztyn</a>
+                <a href="#">Poznań</a>
+                <a href="#">Szczecin</a>
+        
+        </ul>
+    </div>
+<!--Koniec sidebaru-->
+
+
+
+
+
+<div id="main">
+    <p> a  </p> <!--póki co lepiej tego a nie usuwać, bo przykrywa przestrzeń pod paskiem menu-->
+    <h2 style="font-size: 40px">Wrocław</h2>
+    <p2>„Miasto stu mostów” lub „Wenecja północy”</p2>
+
+    <p>Najbardziej współczesne dane wskazują, że we Wrocławiu jest obecnie 118 mostów i kładek, które znajdują się nad głównymi nurtami Odry. </p>
+    <img class="obrazek" src="woman-1413054_1920.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+    
+    <h2>Wrocławski Rynek </h2>
+    <p>- Ma niemal 3,8 hektara i jest jednym z największych w Polsce.
+        <br> - Przyciąga urokiem zabytkowych kamienic i żywiołowości. 
+        <br>  - Stary Ratusz  z 66-metrową wieżą jest unikatowym w skali europejskiej zabytkiem świeckiej architektury gotyckiej, jest najokazalszą tego typu budowlą w kraju. 
+        </p>
+
+        <img class="obrazek" src="wrocaw-1511660_1920.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+        </div>
+        <p>-Rynek otacza 60 kamienic, w tym: Kamienica pod Złotym Słońcem, Kamienica pod Gryfami, Kamienica pod Siedmioma Elektorami, Kamienica pod Błękitnym Słońcem oraz dom towarowy braci Barasch (dzisiaj dom handlowy Feniks), od Rynku odchodzi 11 ulic.</p>
+        <img class="obrazek" src="old-town-5062330_1920.jpg" style="width:60%; margin-left: auto;margin-right: auto;display: block">
+        <h2>Ogród Japoński </h2>
+    <p>-To jedno z najpopularniejszych miejsc spacerów i relaksu. Oryginalne rośliny i niezwykła aranżacja przestrzeni czynią to miejsce wyjątkowym i klimatycznym.</p>
+    <img class="obrazek" src="Japanese_garden_Wroclaw_bridge.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+    <p style="display:inline">Autorstwa Puchatech K. - Polska Wikipedia., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=783774</p>
+    <p>-Jedną z atrakcji miejsca jest staw z olbrzymimi karpiami oraz innymi gatunkami ryb. W Ogrodzie Japońskim często organizowane są pokazy parzenia herbaty, koncerty i imprezy plenerowe.  </p>
+    <img class="obrazek" src="Japanese_garden_Wroclaw_tea_pavilion.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+    <p style="display:inline">Autorstwa Puchatech K. - Polska Wikipedia., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=783785</p>
+  
+  
+    <h2>Muzeum Narodowe</h2>
+    <p>-Sztuka średniowieczna, dzieła epoki renesansu i baroku, sztuka Śląska oraz prace polskich i europejskich artystów współczesnych.
+       <br> -Muzeum Narodowe od 1947 roku zajmuje gmach dawnej Rejencji - Zarządu Prowincji Śląskiej. </p>
+       <img class="obrazek" src="Building_of_the_National_Museum_in_Wrocław_aerial_view_2017.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+       <p style="display:inline">Autorstwa Fallaner - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=60427143</p>
+       <img class="obrazek" src="Wrocław,_Wnętrza_-_fotopolska.eu_(178575).jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+       <p style="display:inline">Autorstwa Neo[EZN] / fotopolska.eu, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=22245028</p>
+       <p>-Do najcenniejszych dzieł w kolekcji Muzeum Narodowego należą m.in.  „Madonna z Jezusem i św. Janem” Agnolo Bronzino, „Pejzaż zimowy z łyżwami i pułapką na ptaki” Pietera Brueghela Młodszego oraz „Portret chłopca” Jeana Chardina.</p>
+       <img class="obrazek" src="Chardin_Portrait_of_a_boy.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+       <p style="display:inline">Autorstwa Jean Chardin - wroclaw.gazeta.pl, Domena publiczna, https://commons.wikimedia.org/w/index.php?curid=23397527</p>
+    
+       <h2>Hala Stulecia we Wrocławiu</h2>
+       <p>-Hala Stulecia to jedno z największych dzieł architektury XX w. Oryginalna konstrukcja Maxa Berga znajduje się na Liście Światowego Dziedzictwa UNESCO.</p>
+       <img class="obrazek" src="Wroclaw_-_Hala_Stulecia_z_fontanna.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+       <p style="display:inline">Autorstwa Jar.ciurus - Praca własna, CC BY-SA 3.0 pl, https://commons.wikimedia.org/w/index.php?curid=35439261</p>
+        <p>
+            -Monumentalna Hala Stulecia została otwarta w 1913 r., w setną rocznicę zwycięstwa wojsk koalicji antyfrancuskiej nad armią Napoleona Bonapartego pod Lipskiem.
+      <br>      -Kopuła Hali Stulecia ma rozpiętość 65 m, a bryła budynku jest wysoka na 42 m. Główną salę widowiskową otaczają kuluary. Na widowni i płycie może się zmieścić nawet 10 tys. osób.
+    
+      <img class="obrazek" src="Jahrhunderthalle_Breslau_Innenansicht.jpg" style=";width:60%; margin-left: auto;margin-right: auto;display: block">
+      <p style="display:inline">Autorstwa Heinrich Götz - Digitale Bibliothek der Universität Breslau - Link, Domena publiczna, https://commons.wikimedia.org/w/index.php?curid=13341959</p>
+    
+    </div>
+    <div class="footer">
+        <p>POLANDGO.pl sp. z o.o. z siedzibą w XYZ, przy ul. XYZ, bud D, xx-xxx XYZ zarejestrowana w Rejestrze Przedsiębiorców Krajowego Rejestru Sądowego prowadzonym przez Sąd Rejonowy dla m. st. Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem 0000412352, NIP 1132853869, REGON 146025969 i z kapitałem zakładowym w wysokości 18 134 050,00 zł.</p>
+    </div>
+
+</body>
+</html>

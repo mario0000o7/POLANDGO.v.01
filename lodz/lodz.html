@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style_v2.css">
+    <script src="sidebar_for_pages.js"></script>
+    
+</head>
+
+<body>
+<!---idk czy to tu, czy raczej w head, ale zgauję, że tu, lol-->
+
+<ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
+    <li><a href="../index.html">Strona Główna</a></li>
+    <li><a href="index.html">Informacje</a></li>
+    <li style="opacity: 1"><a style="opacity: 1" class="text" href="lodz.html">Lódź</a></li>
+    <li><a href="#">Zabytki</a></li>
+    <li><a href="#">Kontakt</a></li>
+    
+    <li><a span style="float:right;font-size:20px;cursor:pointer;color:white;" onclick="openNav()">&#9776; inne miasta||a</span></a></li> <!--Problem jest z "suwakiem?", ponieważ width jest ustalony na 100% "suwak zasłania ostatnią literę, i dlatego jest tam ||a"-->
+    <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
+    <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->    
+    <div class="topnav-right"></div>
+        <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
+
+</ul>
+
+<!--Sidebar tu-->
+<div id="mySidenav" class="sidenav">
+    <c href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</c>
+        <ul>
+                <a href="lodz.html">Łódz</a>
+                <a href="../wroclaw/Wrocław.html">Wrocław</a>
+                <a href="#">Bydgoszcz</a>
+                <a href="#">Toruń</a>
+                <a href="#">Lublin</a>
+                <a href="#">Gorzów Wielkopolski</a>
+                <a href="#">Zielona Góra</a>
+                <a href="#">Kraków</a>
+                <a href="#">Warszawa</a>
+                <a href="#">Opole</a>
+                <a href="#">Rzeszów</a>
+                <a href="#">Gdańsk</a>
+                <a href="#">Katowice</a>
+                <a href="#">Kielce</a>
+                <a href="#">Olsztyn</a>
+                <a href="#">Poznań</a>
+                <a href="#">Szczecin</a>
+        
+        </ul>
+    </div>
+<!--Koniec sidebaru-->
+
+
+
+
+
+<div id="main">
+    <p> a  </p> <!--póki co lepiej tego a nie usuwać, bo przykrywa przestrzeń pod paskiem menu-->
+        <h2 style="font-size: 40px">Łódź
+        </h2>
+        <h2>Ulica Piotrkowska</h2>
+  
+        
+<p>-Jedna z najbardziej znanych ulic w kraju a jednocześnie najdłuższy polski deptak stanowi wizytówkę miasta. Reprezentacyjna ulica Łodzi, jedna z najdłuższych ulic handlowych w Europie licząca ok. 4,2 km, biegnąca południkowo w linii prostej, pomiędzy pl. Wolności a pl. Niepodległości.
+    <br>-Wzdłuż ulicy spotkać można wiele niezwykłych kamienic z przełomu XIX i XX wieku. Niespotykane są też podwórka, w których kryje się wiele historii, ale i punktów usługowych i gastronomicznych. Piotrkowska przyciąga łodzian i turystów niepowtarzalnym klimatem o każdej porze dnia i roku.
+    "</p>
+
+    <div><img class="obrazek" src="ŁódźPiotrkowska.jpg"style="width: 45%">
+        <img class="obrazek" src="poland-4837733_1920.jpg"style=";width:45%;margin-left: 5%">
+        <p style="text-align: center">Autorstwa Motacilla - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=37702957</p>
+        <img class="obrazek" src="Off_Łódź,_September_2015_01.jpg"style=";width:45%;display: block;margin-right: auto;margin-left: auto">
+        <p style="text-align: center">By Zorro2212 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=43410891</p>
+
+    </div>
+    <p style="font-size: 22px">-Festiwal świateł na ulicy Piotrkowskiej </p>
+    <div>
+        <img class="obrazek" src="Light_Move_Festival_2014_27.jpg"style="width: 45%">
+        <img class="obrazek" src="Light_Move_Festival_in_Łódź_2015_41.jpg"style="width: 45%;margin-left: 5%">
+        <div>
+            <p style="float: left">Autorstwa Zorro2212 - Praca własna, CC BY-SA 4.0</p>
+            <p style="float: right;margin-right: 3%">Autorstwa Zorro2212 - Praca własna, CC BY-SA 4.0</p>
+            <br>
+            <div>
+                <br>
+                <br>
+                <p style="float: left"> https://commons.wikimedia.org/w/index.php?curid=44475082</p>
+                <p style="float: right;margin-right: 3%">https://commons.wikimedia.org/w/index.php?curid=36191515</p>
+                <br>
+            </div>
+            <br>
+        </div>
+
+    </div>
+    <br>
+    <h2>Centrum Handlowe Manufaktura </h2>
+    <p>-Centrum handlowo-usługowo-rozrywkowe, otwarte 17 maja 2006 roku. Centrum powstało na terenach dawnej fabryki Izraela Poznańskiego w Łodzi, jednego z największych fabrykantów łódzkich.
+        <br>-Przebudowa dawnej fabryki została tak wykonana, aby częściowo zachować dawną atmosferę tego miejsca. Dominują tu zatem stare, pofabryczne budynki z czerwonej, nieotynkowanej cegły, które zostały jednak całkowicie przebudowane wewnątrz. Zamysł wpisuje się w rewitalizacyjne działania, popularne w miastach o przeszłości przemysłowej – mające na celu zachować atmosferę urbanistyczną z przeszłości z nowoczesnym zastosowaniem budowli.
+        W Manufakturze poza sklepami znajdują się m.in.:
+        <br>-Centrum rozrywki i rekreacji (w tym kino z 15 salami, w tym jedna z trójwymiarowym ekranem 3D, kręgielnia, sztuczna ściana wspinaczkowa (10,5 m wysokości, 28 stanowisk z linami, ponad 50 tras wspinaczki o różnym stopniu trudności), fitness klub i skate park.
+        <br>-Kompleks kulturalny (oddział Muzeum Sztuki, Kinderplaneta, Muzeum Historii Miasta Łodzi, Muzeum Fabryki, Experymentarium – zalążek muzeum techniki, a także Międzynarodowe Centrum Promocji Mody).
+        <br>-Kompleks ok. 60 restauracji i kawiarni.
+        <br>-Centrum samochodowe.
+    </p>
+    <img class="obrazek" src="Lodz_manufaktura_01.jpg"style="margin-left: auto;margin-right: auto;display: block">
+    <p style="text-align: center">Autorstwa Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Michał Oziębło (w oparciu o szablon praw autorskich). - Źródło nie zostało podane w rozpoznawalny automatycznie sposób. Założono, że to praca własna (w oparciu o szablon praw autorskich)., CC BY 2.5, https://commons.wikimedia.org/w/index.php?curid=868231</p>
+    <img class="obrazek" src="800px-Manufaktura_panorama_Łódź.jpg"style="margin-left: auto;margin-right: auto;display: block">
+    <p style="text-align: center">Autorstwa Jakub Zasina - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4115641</p>
+    <div>
+    <img class="obrazek" src="Lodz_Manufaktura93.jpg" style="width: 45%;display: inline;margin-bottom: 500px">
+
+        <img class="obrazek" src="Manufaktura29.jpg" style="width: 45%;display: inline;margin-left: 5%">
+        <div>
+            <p style="float: left">Autorstwa Zorro2212 - Praca własna, CC BY-SA 4.0</p>
+            <p style="float: right;margin-right: 3%">Autorstwa Zorro2212 - Praca własna, CC BY-SA 4.0</p>
+            <br>
+            <div>
+                <br>
+                <br>
+                <p style="float: left"> https://commons.wikimedia.org/w/index.php?curid=44475082</p>
+                <p style="float: right;margin-right: 3%">https://commons.wikimedia.org/w/index.php?curid=36191515</p>
+                <br>
+            </div>
+            <br>
+        </div>
+
+
+    </div>
+    <h2 style="font-size: 30px">Zielona Łódź</h2>
+    <p>Co ciekawe  blisko 1/3 powierzchni Łodzi zajmują tereny zielone. Jest wśród nich ponad 30 miejskich parków, w tym 11 zabytkowych objętych opieką konserwatorską, Ogród Botaniczny, Ogród Zoologiczny, liczne skwery itp.</p>
+    <img class="obrazek" src="Park_Poniatowskiego_1_Łódź.jpg" style="width: 45%;margin-bottom: 4%">
+    <img class="obrazek" style="width: 45%;margin-left: 5%" src="Park_Helenów_Lodz.jpg">
+    <div>
+        <p style="float: left">Park Poniatowskiego</p>
+        <p style="float: right;margin-right: 3%">Park Helenów</p>
+        <br>
+        <div>
+            <br>
+            <br>
+            <p style="float: left"> Autorstwa Jakub Zasina - Praca własna,<br> CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4098346</p>
+            <p style="float: right;margin-right: 3%;text-align: right">Autorstwa HuBar - Łódź,<br> CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=798395</p>
+            <br>
+        </div>
+        <br>
+    </div>
+    <br>
+    <h2 style="font-size: 30px">Dworzec Tramwajowy Centrum</h2>
+    <p>-Dla łodzian potocznie to Stajnia Jednorożców. Na mapach komunikacyjnych MPK-Łódź symbolizowany jest on znakiem jednorożca. 7 czerwca 2019 roku, w pobliżu dworca odsłonięto pomnik jednorożca (wybudowany w ramach budżetu obywatelskiego), autorstwa japońskiego artysty, Tomohiro Inaby.</p>
+    <img class="obrazek" src="Transfer_station_Piotrkowska-Centrum,_Łódź_Piłsudskiego_Av._November_2015_01.jpg" style="width: 45%;margin-left: auto;margin-right: auto;display: block">
+    <p style="text-align: center">Autorstwa Zorro2212 - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=44778169</p>
+
+    <br>
+    <br>
+
+
+
+
+    
+</div>
+<div class="footer">
+    <p>POLANDGO.pl sp. z o.o. z siedzibą w XYZ, przy ul. XYZ, bud D, xx-xxx XYZ zarejestrowana w Rejestrze Przedsiębiorców Krajowego Rejestru Sądowego prowadzonym przez Sąd Rejonowy dla m. st. Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem 0000412352, NIP 1132853869, REGON 146025969 i z kapitałem zakładowym w wysokości 18 134 050,00 zł.</p>
+</div>
+</body>
+</html>
