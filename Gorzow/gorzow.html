@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style_v2.css">
+    <script src="sidebar_for_pages.js"></script>
+    
+</head>
+
+<body>
+<!---idk czy to tu, czy raczej w head, ale zgauję, że tu, lol-->
+
+<ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
+    <li style="opacity: 1;margin-left: 0"><a style="opacity: 1" class="text" href="gorzow.html">Gorzów Wielkopolski</a></li>
+
+    <li><a href="../index.html">Strona Główna</a></li>
+    <li><a href="index.html">Informacje</a></li>
+
+    <li><a href="#">Kontakt</a></li>
+
+    
+    <li><a span style="float:right;font-size:20px;cursor:pointer;color:white;" onclick="openNav()">&#9776; inne miasta||a</span></a></li> <!--Problem jest z "suwakiem?", ponieważ width jest ustalony na 100% "suwak zasłania ostatnią literę, i dlatego jest tam ||a"-->
+    <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
+
+    <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->    
+    <div class="topnav-right"></div>
+        <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
+
+</ul>
+
+<!--Sidebar tu-->
+<div id="mySidenav" class="sidenav">
+    <c href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</c>
+        <ul>
+                <a href="../lodz/lodz.html">Łódz</a>
+                <a href="../wroclaw/Wrocław.html">Wrocław</a>
+                <a href="../bydgoszcz/bydgoszcz.html">Bydgoszcz</a>
+                <a href="../Białystok/bialystok.html">Białystok</a>
+                <a href="../torun/torun.html">Toruń</a>
+                <a href="../lublin/lublin.html">Lublin</a>
+                <a href="gorzow.html">Gorzów Wielkopolski</a>
+                <a href="#">Zielona Góra</a>
+                <a href="#">Kraków</a>
+                <a href="../warszawa/warszawa.html">Warszawa</a>
+                <a href="../opole/opole.html">Opole</a>
+                <a href="../rzeszow/Rzeszow.html">Rzeszów</a>
+                <a href="../Gdansk/gdansk.html">Gdańsk</a>
+                <a href="../Katowice/katowice.html">Katowice</a>
+                <a href="#">Kielce</a>
+                <a href="../olsztyn/olsztyn.html">Olsztyn</a>
+                <a href="../poznań/Poznan.html">Poznań</a>
+                <a href="../Szczecin/SZCZECIN.html">Szczecin</a>
+        
+        </ul>
+    </div>
+<!--Koniec sidebaru-->
+
+
+
+
+
+<div id="main">
+    <p> a  </p> <!--póki co lepiej tego a nie usuwać, bo przykrywa przestrzeń pod paskiem menu-->
+    
+<p> <h2 style="font-size: 40px">Gorzów Wielkopolski</h2> -miasto nad Wartą</p>
+    <h2>Ciekawe miejsca</h2>
+    <p><h2>Bulwar Nadwarciański</h2> - Nadrzeczny bulwar w Gorzowie Wielkopolskim, ciągnący się na prawym brzegu Warty.</p>
+    <div><img class="obrazek" src="Bulwar_wschodni_-_BN_04_resize.jpg"style="width: 100%">
+        <p>Autorstwa Bartłomiej Nowosielski - http://www.gorzow.pl/PL/drukuj/3235/3606/Bulwar_walczy_o_miano___cudu_Polski/wersja/, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=100041883</p>
+
+    </div>
+    <div>
+        <h2>Wieża widokowa "Dominanta"</h2>
+        <img class="obrazek" src="Wieża_widokowa_Gorzów_Wielkopolski.jpg" style="width: 45%;margin-left: auto;margin-right: auto;display: block;">
+        <div>
+            <p style="text-align:center;"> Autorstwa Flyz1 - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=27844493</p>
+            <div>
+
+            </div>
+            <br>
+        </div>
+
+    </div>
+    <br>
+    <p><h2>Park Wiosny Ludów </h2> </p>
+    <p>Park o powierzchni 4,7 ha, położony w centrum Gorzowa Wielkopolskiego. Założony w 1913 r. na podmokłych terenach wokół stawu. W okresie międzywojennym i krótko po wojnie mieściło się tu zoo. W latach 1960-1964 park przeszedł gruntowną modernizację i renowację. Przez gorzowian zwany jest często "parkiem róż", z racji tego, iż niegdyś rosła w nim duża liczba tych kwiatów. Obecnie park stanowi enklawę zieleni w centrum miasta. Są tu alejki, ścieżki spacerowe, plac zabaw dla dzieci, teren jest oświetlony wieczorem. Po godzinie 23 park jest zamykany.</p>
+    <img class="obrazek" src="Główna_aleja_w_Parku_Róż.jpg" style="width: 45%;display: inline;">
+    <img class="obrazek" src="Park_Wiosny_Ludów.jpg" style="width: 45%;display: inline;margin-left: 5%">
+    <p style="text-align: left;">Autorstwa Oskierro - Praca własna, CC BY-SA 4.0,<br> https://commons.wikimedia.org/w/index.php?curid=100035482</p>
+    <p style="text-align: right;">Autorstwa Stiopa - Praca własna, CC BY-SA 4.0,<br> https://commons.wikimedia.org/w/index.php?curid=76342938</p>
+    <h2>Studnia Czarownic</h2>
+    <p>Studnia ta upamiętnia spalenie trzech kobiet posądzonych o czary. Jest to replika  pierwszej  studni, autorstwa gorzowskiej artystki Zofii Bilińskiej, która została zniszczona podczas II Wojny Światowej.
+       <br> Był to wiek XVI– niechlubny czas, kiedy  w całej Europie, w tym i w Polsce, trwało ” polowanie  na Czarownice”  i dotyczyło przede wszystkim kobiet. Wtedy wystarczyło zwykłe posądzenie o czary            i konszachty z Diabłem, a dana osoba, po krótkim procesie w Sądzie  bywała skazywana na śmierć przez spalenie na stosie. W  trakcie  przesłuchań te biedne kobiety były poddawane torturom tak wymyślnym, że każda przyznawała się do wszystkiego o co ją posądzono. Tak też się stało z trzema córkami biednej wdowy z Gorzowa Wlk. Dziewczyny te słynęły w okolicy z urody, wiec nie dziwota,   że wpadły w oko bardzo bogatemu gospodarzowi z sąsiedniej wsi. I wszystko może by było w porządku, gdyby nie fakt, że  był on  tak sędziwy wiekiem. Żadna z młodych dziewczyn go nie chciała, więc obrażony mężczyzna postanowił rzucić na nie posądzenie o czary.
+        <br> A potem  słychać było tylko straszliwy krzyk matki palonych dziewcząt, bo  one same nie wydały żadnego jęku. Biedna matka, by połączyć się z córkami, skoczyła  do studni  stojącej  na dziedzińcu Ratusza.
+       <br>Od tego czasu studnię tą zaczęto nazywać  „Studnią Czarownic”. Legenda mówiła, że jak długo się do niej zagląda, to można zobaczyć 3  piękne  twarze   smutnych, młodych   kobiet.
+        </p>
+        <img class="obrazek" src="a7c2000cf2011b91a4a13b76dda87b9ca31bf65e.jpg" style="width: 45%;margin-left: auto;margin-right: auto;display: block;">
+        <p style="text-align: center;">http://czasatrakcji.pl/uploads/pictures/a7c2000cf2011b91a4a13b76dda87b9ca31bf65e.jpg</p>
+        <h2>Filharmonia Gorzowska  </h2>
+        <p>Miejska instytucja kultury. Jej gmach położony jest w centrum Gorzowa Wielkopolskiego. Do imprez cyklicznych organizowanych przez Filharmonię należy m.in. cykl niedzielnych koncertów familijnych. W 2017 roku w organizowanych przez Filharmonię koncertach udział wzięło 39 000 osób</p>
+        <img class="obrazek" src="Filharmonia_Gorzowska.jpg" style="width: 45%;margin-left: auto;margin-right: auto;display: block;">
+        <p style="text-align: center;">Autorstwa Crash override83 - Praca własna, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17258291</p>
+        <h2>Mury obronne</h2>
+        <p>Gorzowskie mury obronne to zachowany do czasów obecnych fragment średniowiecznych obwarowań o długości 130,19 m i średniej wysokości 4,5 m. W odrestaurowanym fragmencie można zobaczyć cztery oryginalne baszty łupinowe, wysunięte do przodu przed linię murów i mające formę prostokątów.</p>
+        <img class="obrazek" src="Mury_obronne,_XV3333.jpg" style="width: 45%;margin-left: auto;margin-right: auto;display: block;">
+        <h2>Katedra pw. Wniebowzięcia Najświętszej Maryi Panny </h2>
+        <p>Najstarsza świątynia w mieście, wzniesiona jako miejski kościół parafialny pod koniec XIII w. na planie pseudobazylikowego korpusu trzynawowego z wieżą przy elewacji zachodniej oraz zakrystią w kształcie prostokąta przy elewacji północnej.</p>
+        <img class="obrazek" src="Katedra_Gorzów.jpg" style="width: 45%;margin-left: auto;margin-right: auto;display: block;">
+        <p style="text-align: center;">Autorstwa Michał i Renia - https://przekraczajacgranice.pl/2016/04/12/gorzow-wielkopolski/, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=102367727</p>
+        
+        <br>
+
+    <br>
+    <br>
+
+
+
+
+
+
+    
+</div>
+<div class="footer">
+    <p>POLANDGO.pl sp. z o.o. z siedzibą w XYZ, przy ul. XYZ, bud D, xx-xxx XYZ zarejestrowana w Rejestrze Przedsiębiorców Krajowego Rejestru Sądowego prowadzonym przez Sąd Rejonowy dla m. st. Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem 0000412352, NIP 1132853869, REGON 146025969 i z kapitałem zakładowym w wysokości 18 134 050,00 zł.</p>
+</div>
+</body>
+</html>
