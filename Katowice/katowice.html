@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style_v2.css">
+    <script src="sidebar_for_pages.js"></script>
+    
+</head>
+
+<body>
+<!---idk czy to tu, czy raczej w head, ale zgauję, że tu, lol-->
+
+<ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
+    <li style="opacity: 1;margin-left: 0"><a style="opacity: 1" class="text" href="bialystok.html">Katowice</a></li>
+
+    <li><a href="../index.html">Strona Główna</a></li>
+    <li><a href="index.html">Informacje</a></li>
+
+    <li><a href="#">Kontakt</a></li>
+
+    
+    <li><a span style="float:right;font-size:20px;cursor:pointer;color:white;" onclick="openNav()">&#9776; inne miasta||a</span></a></li> <!--Problem jest z "suwakiem?", ponieważ width jest ustalony na 100% "suwak zasłania ostatnią literę, i dlatego jest tam ||a"-->
+    <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
+
+    <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->    
+    <div class="topnav-right"></div>
+        <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
+
+</ul>
+
+<!--Sidebar tu-->
+<div id="mySidenav" class="sidenav">
+    <c href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</c>
+        <ul>
+                <a href="../lodz/lodz.html">Łódz</a>
+                <a href="../wroclaw/Wrocław.html">Wrocław</a>
+                <a href="../bydgoszcz/bydgoszcz.html">Bydgoszcz</a>
+                <a href="../Białystok/bialystok.html">Białystok</a>
+                <a href="../torun/torun.html">Toruń</a>
+                <a href="../lublin/lublin.html">Lublin</a>
+                <a href="#">Gorzów Wielkopolski</a>
+                <a href="#">Zielona Góra</a>
+                <a href="#">Kraków</a>
+                <a href="../warszawa/warszawa.html">Warszawa</a>
+                <a href="../opole/opole.html">Opole</a>
+                <a href="../rzeszow/Rzeszow.html">Rzeszów</a>
+                <a href="../Gdansk/gdansk.html">Gdańsk</a>
+                <a href="katowice.html">Katowice</a>
+                <a href="#">Kielce</a>
+                <a href="../olsztyn/olsztyn.html">Olsztyn</a>
+                <a href="../poznań/Poznan.html">Poznań</a>
+                <a href="../Szczecin/SZCZECIN.html">Szczecin</a>
+        
+        </ul>
+    </div>
+<!--Koniec sidebaru-->
+
+
+
+
+
+<div id="main">
+    <p> a  </p> <!--póki co lepiej tego a nie usuwać, bo przykrywa przestrzeń pod paskiem menu-->
+    <h2 style="font-size: 40px">Katowice
+        </h2>
+
+  
+        
+<p>Katowice miasto na prawach powiatu w południowej Polsce, siedziba władz województwa śląskiego.</p>
+    <h2>Ciekawe miejsca</h2>
+    <p>Kopalnia Guido - dziś nieczynna kopalnia węgla kamiennego, udostępniona do zwiedzania. Zwiedzanie Kopalni Guido możliwe jest na dwóch poziomach 170, 320 i podpoziomie 355.  Podczas zwiedzania można zobaczyć jak działa elektryczna maszyna wyciągowa z 1927 roku, zjechać do podziemi szolą (windą) górniczą. Trasy obejmują podziemne wyrobiska z czasów prowadzenia eksploatacji na Kopalni „Guido”</p>
+    <div><img class="obrazek" src="Katowice_stara_kopalnia_GUIDO.jpg"style="width: 100%;margin-left: auto;margin-right: auto;display: block">
+        <p>Źródło: Plik:Guido coal mine Hindenburg Zabrze.jpg - https://pl.wikipedia.org</p>
+
+    </div>
+    <div>
+        <img class="obrazek" src="Katowice_kopalnia_guido.jpg" style="width: 45%;margin-right: auto;margin-left: auto;display: block">
+        <div>
+            <p style="text-align:center;">Źródło: Plik:Kopalnia Guido - trasa 355, ściana nr 4.JPG - https://pl.wikipedia.org</p>
+            <div>
+
+            </div>
+            <br>
+        </div>
+
+    </div>
+    <br>
+    <p><h2>Dolina Trzech Stawów</h2> - park i kompleks rekreacyjno-sportowy[1], znajdujący się w Katowicach</p>
+    <img class="obrazek" src="KATOWICE_dolinatrzechstawów.jpg" style="width: 45%;margin-right: auto;margin-left: auto;display: block">
+    <p>Źródło: Plik:KATOWICE, AB. 073.JPG - https://pl.wikipedia.org</p>
+    <p> <h2>Nikiszowiec</h2>– zabytkowe osiedle w Katowicach w jednostce pomocniczej Janów-Nikiszowiec, powstałe w latach 1908–1919 z inicjatywy koncernu górniczo-hutniczego. Posiada bardzo charakterystyczną zabudowę wykonaną głównie z czerwonej cegły przez co klimatem nawiązuje do uroczych angielskich dzielnic ale w nieco zimniejszym wydaniu</p>
+    <img class="obrazek" src="Katowice_nikiszowiec0.jpg" style="width:45% ; display: inline">
+    <img class="obrazek" src="Katowice_nikiszowiec1.jpg" style="width: 45%;display: inline;margin-left: 5%">
+    <p style="text-align: left">Źródło: Plik:Janów-Nikiszowiec II 054.jpg - https://pl.wikipedia.org </p>
+    <p style="text-align: right; margin-right: 5%">Źródło: Plik:Katowice, układ urbanistyczno-przestrzenny osiedla robotniczego Nikiszowiec 01.JPG - <br>https://pl.wikipedia.org</p>
+    <br>
+
+    <br>
+    <br>
+
+
+
+
+
+
+    
+</div>
+<div class="footer">
+    <p>POLANDGO.pl sp. z o.o. z siedzibą w XYZ, przy ul. XYZ, bud D, xx-xxx XYZ zarejestrowana w Rejestrze Przedsiębiorców Krajowego Rejestru Sądowego prowadzonym przez Sąd Rejonowy dla m. st. Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem 0000412352, NIP 1132853869, REGON 146025969 i z kapitałem zakładowym w wysokości 18 134 050,00 zł.</p>
+</div>
+</body>
+</html>
