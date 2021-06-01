@@ -3,48 +3,40 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="style.css">
-<title>TEST MAPA</title>
+    <link rel="stylesheet" href="style_v2.css">
+
+    <title>TEST MAPA</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="sidebar_for_pages.js"></script>
     <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.min.js"></script>
     <script type="text/javascript">$(function() {
-        $('.photo').maphilight({ fillColor:"8b8b92", fillOpacity: 1,  stroke: false});
+        $('.photo').maphilight({ fillColor:"8b8b92", fillOpacity: 1,  stroke: false,alwaysOn: true});
     });
     </script>
 </head>
 <body>
-<div class="navigation-bar">
+<ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
+    <li style="opacity: 1;margin-left: 0"><a style="opacity: 1" class="text" href="index.html">Strona Główna</a></li>
+
+    <li><a href="informacje.html">Informacje</a></li>
+
+    <li><a href="contact.html">Kontakt</a></li>
 
 
-    <div id="navigation-container">
+    <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
 
+    <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->
+    <div class="topnav-right"></div>
+    <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
 
-
-        <ul>
-
-            <img  class="sf" src="Bez%20nazwy-1.png" height="100px" width="100px" >
-            <li><a class="napis" href="index.html">Strona Główna</a></li>
-            <li><a class="napis" href="#">Informacje</a></li>
-
-
-            <li><div class="dropdown">
-                <button class="dropbtn">Polecane</button>
-                <div class="dropdown-content">
-                    <a class="zima" href="#">Zima</a>
-                    <a class="wiosna" href="#">Wiosna</a>
-                    <a class="lato" href="#">Lato</a>
-                    <a class="jesien" href="#">Jesień</a>
-                </div>
-            </div>
-            <li><a class="napis" href="#">Kontakt</a></li>
-        </ul>
-    </div>
-</div>
+</ul>
 
 <div class="map" style="padding: 10%">
-    <img src="poland2_dark_mode.svg" usemap="#simple" class="photo" >
+    <img src="poland2_light_mode%20kopiaV2.svg" usemap="#simple" class="photo" >
 
     <map name="simple">
-        <area shape="circle" coords="907,573,31" href="torun/torun.html" />
+        <area shape="circle" coords="0,0,31" href="torun/torun.html" />
         <area shape="circle" coords="817,530,31" href="bydgoszcz/bydgoszcz.html" />
         <area shape="circle" coords="102,466,31" href="Szczecin/SZCZECIN.html" />
         <area shape="circle" coords="907,164,31" href="Gdansk/gdansk.html" />

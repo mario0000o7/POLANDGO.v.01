@@ -4,6 +4,14 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="style_v2.css">
+    <link rel="stylesheet" href="contact.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+    </script>
     <script src="sidebar_for_pages.js"></script>
 
 </head>
@@ -12,9 +20,10 @@
 <!---idk czy to tu, czy raczej w head, ale zgauję, że tu, lol-->
 
 <ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
     <li><a href="index.html">Strona Główna</a></li>
     <li><a href="informacje.html">Informacje</a></li>
-    <li><a href="contact.html">Kontakt</a></li>
+    <li style="opacity: 1;margin-left: 0"><a style="opacity: 1" class="text" href="contact.html">Kontakt</a></li>
 
 
     <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
@@ -27,10 +36,36 @@
 
 <div id="main">
     <p> a  </p> <!--póki co lepiej tego a nie usuwać, bo przykrywa przestrzeń pod paskiem menu-->
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+            </div>
+            <div style="margin-right: auto;margin-left: auto;display: block" class="column" >
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <button class="guzik" onclick="myFunction()">Show Snackbar</button>
+                    <div  id="snackbar">Some text some message..</div>
 
-    <h1>KONTAKT</h1>
-    <p style="font-size: x-large">Telefon: 533513968</p>
-    <p style="font-size: x-large">Email: polandgo@gmail.com</p></p>
+            </div>
+        </div>
+    </div>
+
+
+
 
 </div>
 

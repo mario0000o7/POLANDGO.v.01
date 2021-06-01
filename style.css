@@ -22,7 +22,6 @@ body {
 .navigation-bar {
   background-color: #333333;
   height: 130px;
-  width: 2600px;
   /*width: 100%;*/
 }
 
@@ -112,7 +111,7 @@ body {
 .photo{
   display: block;
   position: absolute;
-  height: 1920px;
+  width: 1280px;
   margin-left: auto;
   margin-right: auto;
   /*padding-top: 25%;*/

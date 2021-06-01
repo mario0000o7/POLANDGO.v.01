@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_v2.css">
-    <script src="sidebar_for_pages.js"></script>
+    <link rel="stylesheet" href="informacje.css">
 
+
+    <title>TEST MAPA</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="sidebar_for_pages.js"></script>
+    <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">$(function() {
+        $('.photo').maphilight({ fillColor:"8b8b92", fillOpacity: 1,  stroke: false,alwaysOn: true});
+    });
+    </script>
 </head>
-
 <body>
-<!---idk czy to tu, czy raczej w head, ale zgauję, że tu, lol-->
-
 <ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
     <li><a href="index.html">Strona Główna</a></li>
-    <li><a href="informacje.html">Informacje</a></li>
+    <li style="opacity: 1;margin-left: 0"><a style="opacity: 1" class="text" href="informacje.html">Informacje</a></li>
     <li><a href="contact.html">Kontakt</a></li>
 
 
+
+
+
+
+
     <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
+
     <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->
     <div class="topnav-right"></div>
     <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
@@ -27,13 +40,64 @@
 
 <div id="main">
     <p> a  </p> <!--póki co lepiej tego a nie usuwać, bo przykrywa przestrzeń pod paskiem menu-->
-    <h1 style="text-align: center">WITAJ PRZYJACIELU
-    </h1>
 
+    <h2 style="text-align:center;background-color: #474e5d">Nasz Zespół</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Founder</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>jane@example.com</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>Mike Ross</h2>
+                    <p class="title">Art Director</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>mike@example.com</p>
+                </div>
+            </div>
+        </div>
 
-    <p style="font-size: x-large">Witaj na stronie GoPoland. Znajdziesz tutaj zbiór wszystkich stolic województw w Polsce oraz wszelkie informacje na ich temat wraz ze zdjęciami poglądowymi. Na stronie głównej na mapie możesz wybrać
-        dowolne miasto i dowiedzieć się czegoś na ich temat. Naszym celem jest przede wszystkim łatwy i czytelny dostęp do informacji dla każdego na temat wielu miejsc w tym historii na ich temat. Jeśli chcesz wiedzieć więcej napisz do nas kontakt zjadziesz w zakładce kontakt.</p>
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+        </div>
+        <div >
+        <div class="column">
+            <div  class="card">
+                <div  class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 </div>
 

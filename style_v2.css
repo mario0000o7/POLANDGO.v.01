@@ -1,36 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
 body {
   transition: 0.3s;
-	margin: 0;
-	background-color: grey;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+  margin: 0;
+  background-color: grey;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
 }
 
 
 .nav{
-  
-  background-color: rgb(34, 34, 34);
+
+  background-color: #333333;
   list-style:none;
   width: 100%;
-  position: fixed;
+  position: absolute;
   margin:0;
   text-align:center;
   font-size: 20;
 }
 
 .nav li{
- 
+
   display:inline;
   /*position: fixed;*/
 }
 .nav a{
   padding: 15px 15px;
   display:inline-block;
+  opacity: 0.7;
   /*position: fixed;*/
-  
+
   color: white;
   text-decoration: none;
-  
+
 }
 
 
@@ -45,6 +48,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
+
   padding-top: 60px;
 }
 
@@ -100,6 +104,33 @@ body {
   background-color: rgb(11, 126, 11);
   color: silver;
 }
+.obrazek
+{
+  border: 5px solid #333333;
+  border-radius: 4px;
+  padding: 2px;
+}
+.footer{
+  color: white;
+  width: 100%;
+  background-color: #333333;
+  height: 65px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.text{
+  font-size: 22px;
+  opacity: 1;
+  background-color: #b0b0b5;
 
+
+}
+.text:hover{
+  font-size: 22px;
+  color: green;
+
+
+}
 
 
