@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_v2.css">
+    <link rel="stylesheet" href="informacje.css">
+
+
+    <title>TEST MAPA</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="sidebar_for_pages.js"></script>
+    <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">$(function() {
+        $('.photo').maphilight({ fillColor:"8b8b92", fillOpacity: 1,  stroke: false,alwaysOn: true});
+    });
+    </script>
+</head>
+<body>
+<ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
+    <li><a href="index.html">Strona Główna</a></li>
+    <li style="opacity: 1;margin-left: 0"><a style="opacity: 1" class="text" href="informacje.html">Informacje</a></li>
+    <li><a href="contact.html">Kontakt</a></li>
+
+
+
+
+
+
+
+    <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
+
+    <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->
+    <div class="topnav-right"></div>
+    <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
+
+</ul>
+
+
+<div id="main">
+    <p> a  </p> <!--póki co lepiej tego a nie usuwać, bo przykrywa przestrzeń pod paskiem menu-->
+
+    <h2 style="text-align:center;background-color: #474e5d">Nasz Zespół</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Founder</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>jane@example.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>Mike Ross</h2>
+                    <p class="title">Art Director</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>mike@example.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+        </div>
+        <div >
+        <div class="column">
+            <div  class="card">
+                <div  class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
