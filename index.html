@@ -3,54 +3,60 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="style.css">
-<title>TEST MAPA</title>
+    <link rel="stylesheet" href="style_v2.css">
+
+    <title>TEST MAPA</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="sidebar_for_pages.js"></script>
     <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.min.js"></script>
     <script type="text/javascript">$(function() {
-        $('.photo').maphilight({ fillColor:"8b8b92", fillOpacity: 1,  stroke: false,alwaysOn:true});
+        $('.photo').maphilight({ fillColor:"8b8b92", fillOpacity: 1,  stroke: false});
     });
     </script>
 </head>
 <body>
-<div class="navigation-bar">
+<ul class="nav" id = "myNav">
+    <img style="float: left"  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
+    <li style="opacity: 1;margin-left: 0"><a style="opacity: 1" class="text" href="index.html">Strona Główna</a></li>
+
+    <li><a href="informacje.html">Informacje</a></li>
+
+    <li><a href="contact.html">Kontakt</a></li>
 
 
-    <div id="navigation-container">
+    <li><a span style="float:inline-end;font-size:20px;cursor:pointer;color:white;" onclick = "DarkMode()">&#9728;</span></a></li>
 
+    <!--prawdopodobnie wystarczy zamienić float:right, na jakąś "procentową" komendę?-->
+    <div class="topnav-right"></div>
+    <!--Tutaj daj dark mode, chyba, oraz dodaj to, żeby zostawała w miejscu-->
 
-
-        <ul>
-            <img  class="sf" src="Bez%20nazwy-1.png" height="69px" width="69px" >
-            <li><a class="napis" href="index.html">Strona Główna</a></li>
-            <li><a class="napis" href="#">Informacje</a></li>
-
-
-            <li><div class="dropdown">
-                <button class="dropbtn">Polecane</button>
-                <div class="dropdown-content">
-                    <a class="zima" href="#">Zima</a>
-                    <a class="wiosna" href="#">Wiosna</a>
-                    <a class="lato" href="#">Lato</a>
-                    <a class="jesien" href="#">Jesień</a>
-                </div>
-            </div>
-            <li><a class="napis" href="#">Kontakt</a></li>
-        </ul>
-    </div>
-</div>
+</ul>
 
 <div class="map" style="padding: 10%">
-    <img src="poland2_dark_mode.svg" usemap="#simple" class="photo" >
+    <img src="poland2_light_mode%20kopiaV2.svg" usemap="#simple" class="photo" >
 
     <map name="simple">
-        <area shape="circle" coords="611,396,22" href="stronav2.html" />
-        <area shape="circle" coords="678,429,22" href="#Toruń" />
-        <area shape="circle" coords="77,349,22" href="#Sczecin" />
-        <area shape="circle" coords="678,123,22" href="#Gdańsk" />
-        <area shape="circle" coords="935,284,22" href="#Olsztyn" />
-        <area shape="circle" coords="1400,440,22" href="#Białystok" />
-        <area shape="circle" coords="809,749,22" href="lodz/lodz.html" />
-        <area shape="circle" coords="453,901,22" href="wroclaw/Wrocław.html" />
+        <area shape="circle" coords="570,360,21" href="torun/torun.html" />
+        <area shape="circle" coords="514,333,21" href="bydgoszcz/bydgoszcz.html" />
+        <area shape="circle" coords="65,293,21" href="Szczecin/SZCZECIN.html" />
+        <area shape="circle" coords="570,115,21" href="Gdansk/gdansk.html" />
+        <area shape="circle" coords="787,238,21" href="olsztyn/olsztyn.html" />
+        <area shape="circle" coords="1176,369,21" href="Białystok/bialystok.html" />
+        <area shape="circle" coords="680,630,21" href="lodz/lodz.html" />
+        <area shape="circle" coords="380,758,21" href="wroclaw/Wrocław.html" />
+        <area shape="circle" coords="847,562,21" href="warszawa/warszawa.html" />
+        <area shape="circle" coords="1155,785,21" href="lublin/lublin.html" />
+        <area shape="circle" coords="488,876,21" href="opole/opole.html" />
+        <area shape="circle" coords="326,516,21" href="poznań/Poznan.html" />
+        <area shape="circle" coords="148,450,21" href="Gorzow/gorzow.html" />
+        <area shape="circle" coords="635,835,21" href="czestochowa/czestochowa.html" />
+        <area shape="circle" coords="618,990,21" href="Katowice/katowice.html" />
+        <area shape="circle" coords="808,819,21" href="Kielce/Kielce.html" />
+        <area shape="circle" coords="756,1062,21" href="Krakow/krakow.html" />
+        <area shape="circle" coords="1025,1052,21" href="rzeszow/Rzeszow.html" />
+        <area shape="circle" coords="174,590,21" href="Zielona_gora/zielona_gora.html" />
+
+
     </map>
 </div>
 
