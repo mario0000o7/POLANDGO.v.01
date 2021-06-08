@@ -2,15 +2,15 @@
 
 body {
   transition: 0.3s;
-	margin: 0;
-	background-color: grey;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+  margin: 0;
+  background-color: grey;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
 }
 
 
 .nav{
-  
+
   background-color: #333333;
   list-style:none;
   width: 100%;
@@ -21,7 +21,7 @@ body {
 }
 
 .nav li{
- 
+
   display:inline;
   /*position: fixed;*/
 }
@@ -30,17 +30,17 @@ body {
   display:inline-block;
   opacity: 0.7;
   /*position: fixed;*/
-  
+
   color: white;
   text-decoration: none;
-  
+
 }
 
 
 
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -86,6 +86,7 @@ body {
 }
 
 #main {
+  margin-left: 250px;
   transition: margin-left .5s;
   padding: 16px;
 }
@@ -125,6 +126,10 @@ body {
   background-color: #b0b0b5;
 
 
+}
+#myFooter{
+  margin-left: 250px;
+  transition: 0.5s;
 }
 .text:hover{
   font-size: 22px;

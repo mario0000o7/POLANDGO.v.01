@@ -115,6 +115,7 @@ body {
   width: 100%;
   background-color: #333333;
   height: 65px;
+  float: right;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;

@@ -12,102 +12,7 @@ body {
 }
 /* ~~ Top Navigation Bar ~~ */
 
-#navigation-container {
-  width: 100%;
-  padding-top:25px;
-  margin: 0 auto;
-  height: 120px;
-}
 
-.navigation-bar {
-  background-color: #333333;
-  height: 130px;
-  /*width: 100%;*/
-}
-
-.navigation-bar ul {
-  background-color: #333333;
-  /*padding: 0px;*/
-  /*margin-top: 20px;*/
-  margin: 0px;
-  text-align: center;
-}
-.navigation-bar ul img.sf {
-  float: left;
-  padding: 5px;
-}
-
-.navigation-bar li {
-  list-style-type: none;
-  height: 24px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  display: inline;
-}
-.navigation-bar ul li a.napis:hover {
- background-color: #3e8e41;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-
-.navigation-bar li a.napis {
-  color: white;
-  font-size: 24px;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  line-height: 70px;
-  padding: 5px 15px;
-  opacity: 0.7;
-}
-.navigation-bar ul li div.dropdown {
-  color: black;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  line-height: 20px;
-}
-
-#menu {
-  float: right;
-}
-.dropbtn {
-  background-color: #333333;
-  color: white;
-  padding: 15px;
-  font-size: 24px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a.zima:hover {background-color: deepskyblue;}
-.dropdown-content a.lato:hover {background-color: yellow;}
-.dropdown-content a.jesien:hover {background-color: brown}
-.dropdown-content a.wiosna:hover {background-color: green;}
-
-
-
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 .photo{
   display: block;
   position: absolute;
@@ -118,12 +23,4 @@ body {
   
 
 
-}
-.footer{
-  color: white;
-  width: 100%;
-  background-color: #333333;
-  height: 55px;
-  text-align: center;
-  padding-top: 15px;
 }
