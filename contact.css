@@ -2,6 +2,7 @@
 {
     box-sizing: border-box;
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -10,7 +11,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
-select{
+option{
     width: 100%;
 }
 input[type=submit] {
@@ -41,10 +42,9 @@ input[type=submit]:hover {
 
 /* Create two columns that float next to eachother */
 .column {
-    float: left;
-    width: 60%;
+    width: 45%;
     margin-top: 6px;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 /* Clear floats after the columns */
